@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.0.1/vue-router.js"></script>
+    <script src="https://unpkg.com/vuex@2.5.0/dist/vuex.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <nav-bar
+        brand="Travel Nepal"
+        :links="[{ name: 'Home', href: '/' }, { name: 'About Us', href: '/about' }, { name: 'Packages', href: '/packages' }, { name: 'Log In', href: '/login' }, { name: 'Register', href: '/register'}]"
+      ></nav-bar>
+      <div>
+        <transition name="route">
+          <router-view />
+        </transition>
+      </div>
+    </div>
+  </body>
+</html>
