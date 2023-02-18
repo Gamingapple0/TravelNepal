@@ -927,3 +927,5 @@
     router,
     store,
   });
+
+console.log('script running')
