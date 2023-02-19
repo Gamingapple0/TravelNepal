@@ -1,3 +1,5 @@
+You can view the live demo [here](https://gamingapple0.github.io/TravelNepal/)
+
 This project was an assignment from SIT120 where the project was divided into two parts, proof of concepts and final project. The proof of concepts were paired with a written report on the website where we also had to make user stories, and dabble with the UI/UX for the site. Part 2 was about implementing the proof of concepts using the Vue Framework.
 
 One of the key features of the application was its ability to display information about different packages and their prices. Users could browse the packages, view their details, and select the one that suits their preferences. Once the user had selected a package, they could add it to their cart and proceed to checkout.
